@@ -1,16 +1,13 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
- *
- * Return: always 0
+ * Return:1
  */
 int main(void)
 {
-	printf("Size of a char: %d byte(s)\n", sizeof(char));
-	printf("Size od an int: %d byte(s)\n", sizeof(int));
-	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
-	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
-	printf("Size of a float: %d byte(s)\n", sizeof(float));
-	return(0);
+char ch[] = "and that piece of art is useful\" - Dora Korpar, 2915-10-19\n";
+write(2, ch, sizeof(ch));
+return(1);
 }
 
