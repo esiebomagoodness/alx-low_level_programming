@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Prints the aplhabetic in lower and upper case
  *
@@ -13,7 +12,6 @@ int main(void)
 	{
 		putchar(c);
 	}
-	
 		for (c = 'A'; c <= 'Z'; c++)
 	{
 			putchar(c);
@@ -22,4 +20,3 @@ int main(void)
 
 		return (0);
 }
-
