@@ -12,7 +12,7 @@ int main(void)
 	{
 		if (number % i == 0)
 		{
-		
+
 			number = number / i;
 			i--;
 		}
