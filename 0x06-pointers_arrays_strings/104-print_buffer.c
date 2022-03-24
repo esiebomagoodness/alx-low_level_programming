@@ -72,7 +72,7 @@ void print_buffer(char *b, int size)
 			printHexes(b, start, end);
 			printASCII(b, start, end);
 			printf("\n");
-		}	
+		}
 	} else
 		printf("\n");
 }
