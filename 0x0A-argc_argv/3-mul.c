@@ -28,4 +28,3 @@ printf("%d\n", res);
 }
 return (0);
 }
-© 2022 GitHub, Inc.
