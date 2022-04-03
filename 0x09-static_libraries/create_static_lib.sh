@@ -1,2 +1,2 @@
-gcc -Wall -pedantic -Werror -Wextra -c *.c
-ar -crs liball.a *.o
+gcc -c *.c
+ar -c liball.a *.o
